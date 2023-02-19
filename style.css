@@ -90,6 +90,14 @@
   border-radius: 5px;
   margin-top: 20px;
 }
+.regform__form__checkbox {
+  margin-top: 15px;
+}
+.regform__form__checkbox label {
+  font-family: "PTSerif";
+  font-size: 20px;
+  margin-left: 15px;
+}
 .regform__form button {
   font-family: "Montserrat";
   background-color: #000000;

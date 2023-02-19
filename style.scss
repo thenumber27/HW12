@@ -99,6 +99,16 @@
             border-radius: 5px;
             margin-top: 20px;
         }
+
+        &__checkbox {
+            margin-top: 15px;
+
+            & label {
+                font-family: "PTSerif";
+                font-size: 20px;
+                margin-left: 15px;
+            }
+        }
     
         & button {
             font-family: "Montserrat";
