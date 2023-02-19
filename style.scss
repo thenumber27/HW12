@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Serif&display=swap');
+
+@font-face {
+    font-family: "QC";
+    src:url(./fonts/QuiteChocolatey.ttf)
+}
+
+@font-face {
+    font-family: "Couture";
+    src: url(./fonts/couture-bld.otf);
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+}
+
+.travel {
+    background-image: url(./images/bg.png);
+    background-size: cover;
+}
+
+.header {
+    justify-content: space-between;
+    padding-top: 70px;
+    align-items: center;
+}
+
+.logo {
+    font-family: "QC";
+    font-size: 88px;
+    text-decoration: none;
+    color: #d03958;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-left: 20px;
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #d03958;
+        color: #ffffff;
+    }
+}
+
+.regform {
+    justify-content: space-between;
+
+    &__text {
+        width: 50%;
+
+        & h1 {
+            font-family: "Montserrat";
+            font-size: 90px;
+            color: #d03958;
+        }
+
+        & span {
+            color: #000000;
+        }
+
+        & p {
+            font-family: "PTSerif";
+            font-size: 20px;
+            margin-bottom: 120px;
+        }
+    }
+
+    &__form {
+        position: absolute;
+        margin-top: 77px;
+        margin-left: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        background-color: #d03958;
+        border-radius: 5px;
+        color: #ffffff;
+
+        & p {
+            font-family: "Montserrat";
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+    
+        &__input {
+            font-family: "PTSerif";
+            padding: 20px 95px 20px 20px;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    
+        & button {
+            font-family: "Montserrat";
+            background-color: #000000;
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            padding: 20px 150px 20px 148px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px;
+        }
+    }
+}
+
+.ourservice {
+    display: block;
+
+        & span {
+            color: #d03958;
+        }
+
+        &__text {
+            font-family: "couture";
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 100px;
+        }
+
+        &__cards {
+            display: flex;
+            justify-content: space-between;
+            font-family: "PTSerif";
+            font-size: 20px;
+            
+
+            &__card {
+                text-align: center;
+                flex-basis: 165px;
+                margin-bottom: 70px;
+
+                &-icon {
+                    font-size: 170px;
+                    color: #e3d5b8;
+                    margin-bottom: 50px;
+                }
+            }
+    }
+}
+
+.ourstory {
+    background-color: #d03958;
+    font-family: "PTserif";
+    font-size: 20px;
+    color: #ffffff;
+
+    &__object {
+        justify-content: space-between;
+        align-items: center;
+
+        &__text {
+            flex-basis: 600px;
+        }
+    
+        &__button {
+            font-family: "Montserrat";
+            font-size: 22px;
+            background-color: #e3d5b8;
+            padding: 25px 80px;
+            font-weight: 600;
+            border: none;
+            border-radius: 5px;
+            margin: 35px 0;
+            cursor: pointer;
+        }
+    } 
+}
+
+.pricing {
+    background-color: #e3d5b8;
+    justify-content: space-between;
+
+    & h2 {
+        text-align: center;
+        margin: 0;
+        padding: 60px 0;
+        font-family: "Montserrat";
+        font-size: 50px;
+        color: #1f1f1f;
+    }
+
+    &__card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-basis: 320px;
+        background-color: #ffffff;
+
+        & p {
+            font-family: "PTSerif";
+            font-size: 22px;
+            color: #161616;
+        }
+
+        & h3 {
+            font-family: "Montserrat";
+            font-size: 60px;
+            color: #d03958;
+            margin: 0;
+        }
+
+        & button {
+            background-color: #e3d5b8;
+            border: none;
+            border-radius: 5px;
+            font-family: "Montserrat";
+            font-size: 22px; 
+            font-weight: 600;
+            padding: 10px 0;
+            width: 200px;
+
+            &:hover {
+                background-color: #d03958;
+                color: #ffffff;
+            }
+        }
+
+        & h4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotate(-45deg);
+            font-family: "PTSerif";
+            font-size: 16px;
+            color: #1f1f1f;
+
+        }
+
+        &__triangle {
+            position: absolute;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-top: 90px solid #b4a993; 
+            border-right: 90px solid transparent;	
+            
+            
+        }
+    }
+
+}
+
+.testimonial {
+    justify-content: space-between;
+
+        &__cards {
+            width: 480px;
+
+            &-card1 {
+                position: relative;
+                margin-bottom: 50px;
+
+                & h2 {
+                    font-family: "Montserrat";
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #1f1f1f;
+                    text-align: center;
+                }
+
+                & p {
+                    font-family: 'PT Serif';
+                    font-size: 20px;
+                    color: #1f1f1f;
+                    width: 365px;
+                    margin: 0;
+                }
+
+                & .test-txt {
+                    color: #d03958;
+                    margin-top: 15px;
+                }
+
+                & img {
+                    position: absolute;
+                    top: 120px;
+                    left: 378px;
+                }
+
+                & .test-bg {
+                    padding: 20px;
+                }
+
+                & .test-bg:hover {
+                    padding: 20px;
+                    background-color: #e3d5b8;
+                    width: 380px;
+                }
+            }
+            &-card2 {
+                position: relative;
+                margin-bottom: 50px;
+
+                & h2 {
+                    font-family: "Montserrat";
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #1f1f1f;
+                    text-align: center;
+                }
+
+                & p {
+                    margin: 0;
+                    font-family: 'PT Serif';
+                    font-size: 20px;
+                    color: #1f1f1f;
+                    width: 365px;
+                }
+
+                & .test-txt {
+                    color: #d03958;
+                    margin-top: 15px;
+                }
+
+                & img {
+                    position: absolute;
+                    top: 0;
+                    left: 378px;
+                }
+                
+                & .test-bg {
+                    padding: 20px;
+                }
+
+                & .test-bg:hover {
+                    background-color: #e3d5b8;
+                    width: 380px;
+                }
+            }
+        }
+
+        &__gallery {
+            width: 415px;
+            text-align: center;
+
+            & h2 {
+                font-family: "Montserrat";
+                font-size: 50px;
+                font-weight: 700;
+                color: #d03958;
+            }
+
+            & a {
+                font-family: "Montserrat";
+                font-size: 20px;
+                color: #d03958;
+            }
+
+            &__card {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 55px;
+            }
+
+            & img {
+                margin-bottom: 15px;       
+            }
+        }
+}
+
+.footer {
+    background-color: #161616;
+    justify-content: space-between;
+    align-items: center;
+
+    &__text {
+        font-family: 'PT Serif';
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    &__text2 {
+        color: #d03958;
+        text-decoration: none;
+    }
+
+    &__logo {
+        font-family: "QC";
+        font-size: 64px;
+        text-decoration: none;
+        color: #d03958;
+        padding: 30px 0;
+    }
+}
