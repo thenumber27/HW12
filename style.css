@@ -89,6 +89,7 @@
   font-size: 20px;
   border-radius: 5px;
   margin-top: 20px;
+  border-color: transparent;
 }
 .regform__form__checkbox {
   margin-top: 15px;
@@ -266,7 +267,8 @@
 .testimonial__cards-card1 .test-bg:hover {
   padding: 20px;
   background-color: #e3d5b8;
-  width: 380px;
+  width: 405px;
+  border-radius: 5px;
 }
 .testimonial__cards-card2 {
   position: relative;
@@ -300,7 +302,8 @@
 }
 .testimonial__cards-card2 .test-bg:hover {
   background-color: #e3d5b8;
-  width: 380px;
+  width: 405px;
+  border-radius: 5px;
 }
 .testimonial__gallery {
   width: 415px;
